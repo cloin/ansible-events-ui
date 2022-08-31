@@ -20,3 +20,4 @@ jobs:
           docker-compose up -d --build
           curl -q http://localhost:8080/ping
           curl -q http://localhost:8080/eda
+          docker images
